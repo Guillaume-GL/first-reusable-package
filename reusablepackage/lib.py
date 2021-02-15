@@ -6,6 +6,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+def try_me():
+    print("❌ First try, second guess ❔ ✅")
+
+
 def generate_data():
     X, y = make_moons(n_samples=250, noise=0.20, random_state=0)
     return X, y
