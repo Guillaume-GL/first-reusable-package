@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 
 def try_me():
-    print("❌ First try, second guess ❔ ✅")
+    return "❌ First try, second guess ❔ ✅"
 
 
 def generate_data():
